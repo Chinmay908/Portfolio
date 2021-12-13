@@ -349,7 +349,7 @@ h2 {
     display:block;
     width: 100vw;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   #mainsvg {
     float: none;
@@ -367,6 +367,10 @@ h2 {
   #parentdiv1 {
     margin-top: 15px;
   }
+   #parentdiv2 {
+    margin-top: 90px;
+  }
+  
   #coffee,
   #vowel,
   #calci,
@@ -439,7 +443,8 @@ h2 {
   }
   #info {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-left: 12px;
   }
   #mainsvg {
     float: none;
@@ -456,6 +461,9 @@ h2 {
   }
   #parentdiv1 {
     margin-top: 15px;
+  }
+  #parentdiv2 {
+    margin-bottom: 110px;
   }
 
   #coffee,
