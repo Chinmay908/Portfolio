@@ -26,13 +26,14 @@ section {
 #menu {
   padding: 5px;
   text-align: right;
-  background-color: #073b4c; /*#CC005F;#F5D6BA;*/
+  background-color: #073b4c;
   width: 100vw;
   height: 38px;
   position: fixed;
   top: 0;
   z-index: 1;
-}
+} 
+
 #menuicon {
   display: none;
 }
@@ -345,17 +346,17 @@ h2 {
     width: auto;
   }
   #info {
-    display: block;
-    margin-top: 50px;
+    display:block;
     width: 100vw;
     text-align: center;
+    /* margin-left: 20px; */
   }
   #mainsvg {
-    /* margin-top: 20px; */
+    float: none;
     margin-bottom: 100px;
-    width: 380px;
-    height: 220px;
+    align-items: center;
   }
+
   #parentdiv1,
   #parentdiv2 {
     padding-left: auto;
@@ -432,16 +433,21 @@ h2 {
   }
   #containner {
     display: grid;
-    width: auto;
+    width:100vw;
     margin: 0;
+    padding: 0;
   }
   #info {
     text-align: center;
+    margin-left: 40px;
   }
   #mainsvg {
+    float: none;
     margin-bottom: 100px;
+    align-items: center;
+    /* margin-left: 10px; */
     width: 400px;
-    height: 240px;
+    height: 220px;
   }
   #parentdiv1,
   #parentdiv2 {
@@ -503,7 +509,7 @@ h2 {
     font-size: 16px;
   }
   .footer {
-    font-size: 15px;
+    font-size: 13px;
     padding: 2px;
   }
 }
