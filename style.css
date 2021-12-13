@@ -1,0 +1,497 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #001219;
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#menu {
+  padding: 5px;
+  text-align: right;
+  background-color: #073b4c; /*#CC005F;#F5D6BA;*/
+  width: 100vw;
+  height: 38px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+#menuicon {
+  display: none;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  line-height: 38px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #00b4d8;
+  font-weight: bold;
+}
+#containner {
+  margin-top: 10px;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+  background-color: #001219;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#info {
+  font-family: sans-serif;
+  float: left;
+  padding: 5px;
+  font-size: 25px;
+  padding-top: 5px;
+  background-color: #00060f;
+  color: white;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+#mainsvg {
+  float: right;
+  width: 700px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+#button {
+  color: white;
+  background-color: #0077b6;
+  font-size: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}
+#button a {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-size: 30px;
+}
+label {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+input {
+  width: 100%;
+  font-size: 22px;
+  font-family: sans-serif;
+  overflow: hidden;
+  background-color: #001219;
+  outline: none;
+  color: white;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-bottom-color: white;
+}
+input:focus,
+input:active {
+  border-color: transparent;
+  border-bottom: 2px solid blue;
+}
+::placeholder {
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+textarea {
+  font-size: 22px;
+  width: 100%;
+  height: 100px;
+  resize: none;
+  background-color: #001219;
+  color: white;
+  font-family: sans-serif;
+  border: none;
+}
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 25px;
+}
+#svg {
+  text-align: center;
+}
+#contact {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+#contactphoto {
+  position: relative;
+  width: 50%;
+  opacity: 0.8;
+}
+#submit {
+  display: inline;
+  font-size: 30px;
+  color: white;
+  background-color: #0077b6;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px;
+  font-family: sans-serif;
+}
+#contactbody,
+#projectbody {
+  background-color: #001219;
+}
+.footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  color: white;
+  background-color: #073b4c;
+  text-align: center;
+  width: 100vw;
+  font-size: 20px;
+  padding: 2px;
+  height: 45px;
+  line-height: 45px;
+}
+#maindiv {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+  margin-top: 30px;
+}
+#profile {
+  width: 50%;
+  padding-left: 50px;
+}
+#image {
+  text-align: center;
+  margin-bottom: 5px;
+}
+#profilephoto {
+  border-radius: 5px;
+}
+#about {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #001219;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+#about h2 {
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 25px;
+  color: white;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+#parentdiv1,
+#parentdiv2 {
+  width: 100vw;
+  position: relative;
+  padding: 10px;
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#coffee,
+#calci {
+  padding: 10px;
+  background-color: #00060f;
+  text-align: center;
+  width: 380px;
+  height: 240px;
+  border-radius: 8px;
+}
+#vowel,
+#github {
+  padding: 10px;
+  background-color: #00060f;
+  width: 380px;
+  height: 240px;
+  text-align: center;
+  border-radius: 8px;
+}
+#navbar {
+  background-color: #026ea8;
+  width: 100vw;
+  display: none;
+}
+
+#navbar ul li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-left: 5px;
+}
+#navbar ul li a {
+  display: block;
+}
+.label {
+  width: 50px;
+  height: 26px;
+  display: flex;
+  border-radius: 50px;
+  background-color: #111;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transition: transform 0.2s linear;
+}
+.checkbox {
+  display: none;
+  position: absolute;
+}
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+.fa-moon {
+  color: #f1c40f;
+}
+.fa-sun {
+  color: #f39c12;
+}
+.ball {
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+#toggle {
+  visibility: hidden;
+  float: left;
+}
+
+/*Media Queries to make it Responsive*/
+
+@media only screen and (max-width: 430px) {
+  .container {
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+    /* scroll-behavior: smooth; */
+  }
+  #menu ul {
+    display: none;
+  }
+  #home {
+    height: 100vh;
+    display: block;
+  }
+  #menu {
+    height: 50px;
+  }
+  #containner {
+    display: block;
+    width: auto;
+  }
+  #info {
+    display: block;
+    margin-top: 50px;
+    width: 100vw;
+    text-align: center;
+  }
+  #mainsvg {
+    margin-top: 20px;
+    width: 400px;
+    height: 250px;
+  }
+  #parentdiv1,
+  #parentdiv2 {
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+    margin: 0;
+  }
+  #parentdiv1 {
+    margin-top: 15px;
+  }
+  #coffee,
+  #vowel,
+  #calci,
+  #github {
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 0.5px;
+  }
+  #maindiv {
+    display: block;
+    margin-top: 20px;
+  }
+  #about {
+    background-color: #001219;
+  }
+  #about p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  #contact {
+    margin-top: 20px;
+  }
+  #box {
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+    /* scroll-behavior: smooth; */
+  }
+  #menu ul {
+    display: none;
+  }
+  #home {
+    height: 100vh;
+    display: block;
+  }
+  #menu {
+    height: 50px;
+  }
+  #containner {
+    display: grid;
+    width: auto;
+    margin: 0;
+  }
+  #info {
+    text-align: center;
+  }
+  #mainsvg {
+    margin-bottom: 100px;
+    width: 430px;
+    height: 250px;
+  }
+  #parentdiv1,
+  #parentdiv2 {
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+    margin: 0;
+  }
+  #parentdiv1 {
+    margin-top: 15px;
+  }
+
+  #coffee,
+  #vowel,
+  #calci,
+  #github {
+    width: 340px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 0.5px;
+  }
+  #maindiv {
+    display: grid;
+    margin-top: 20px;
+  }
+  #about {
+    background-color: #001219;
+    margin-right: 20px;
+  }
+  #about p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  #contact {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  #svg {
+    margin-bottom: 20px;
+  }
+  #box {
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 16px;
+  }
+}

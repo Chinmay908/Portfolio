@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="" src="javascript.js"></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="menu">
+        <img
+          src="https://img.icons8.com/fluent-systems-regular/48/000000/menu--v3.png"
+          id="menuicon"
+          onclick="showmenu();"
+        />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#project">Works</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div id="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#project">Works</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <section id="home">
+        <div id="containner">
+          <div id="info">
+            <h2>Chinmay Palav</h2>
+            <br />
+            <p>Student at Thadomal Shahani Engineering College</p>
+            <br />
+            <p1>Front End Web Developer</p1><br /><br />
+            <button id="button" onclick="project();">My Works</button>
+          </div>
+          <div>
+            <img src="./images/svg2.svg" alt="dashboard_img" id="mainsvg" />
+          </div>
+        </div>
+      </section>
+      <br />
+      <section id="project">
+        <br />
+        <h1>My Projects</h1>
+        <div id="parentdiv1">
+          <div id="coffee">
+            <h2 style="color: #ff006e">MyBlog</h2>
+            <br />
+            <p>
+              Myblog is a website where people can post thier blogs.It provides
+              users to edit or delete their blog.
+            </p>
+            <p>
+              It is made using React js and Firebase.
+              <a
+                href="https://github.com/Chinmay908/mario-plan"
+                target="_blank"
+                style="color: blue"
+                >Click here</a
+              >
+              to know more about it.
+            </p>
+          </div>
+          <div id="vowel">
+            <h2 style="color: #8338ec">BeFit</h2>
+            <br />
+            <p>
+              BeFit is a blog website which provides health related tips to get
+              in groove with your fitness. We provide variety of content for
+              Exercise, Yoga and Nutrition which will help you improve quality
+              of lifestyle.
+            </p>
+            <p>
+              <a
+                href="https://github.com/Chinmay908/BeFit"
+                target="_blank"
+                style="color: blue"
+                >Click here</a
+              >
+              to know more about it.
+            </p>
+          </div>
+        </div>
+        <div id="parentdiv2">
+          <div id="calci">
+            <h2 style="color: #06d6a0">Simple Calculator</h2>
+            <br />
+            <p>
+              Designed a simple calculator that performs airthmetic operations
+              only on two numbers at a time. Gives accurate result. Looking
+              forward to make it more advance.
+            </p>
+            <p>
+              <a
+                href="https://github.com/Chinmay908/simpleCalculator"
+                target="_blank"
+                style="color: blue"
+                >Click here</a
+              >
+              to know more about it.
+            </p>
+          </div>
+          <div id="github">
+            <h2 style="color: #ff9f1c">Vowel Counter</h2>
+            <br />
+            <p>
+              It is used to count the number of vowels in the string entered by
+              the user at real time.
+            </p>
+            <p>
+              <a
+                href="https://github.com/Chinmay908/vowelCounter"
+                target="_blank"
+                style="color: blue"
+                >Click here</a
+              >
+              to know more about it.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <h1>Who I am?</h1>
+        <div id="maindiv">
+          <div id="image">
+            <img src="./images/photo1.jpg" alt="" id="profilephoto" />
+          </div>
+          <div id="about">
+            <h3>Hello!</h3>
+            <h2>I'm Chinmay Palav</h2>
+            <p>
+              Student in Thadomal Shahani Engineering College, pursuing B.E in
+              Computer Engineering. I am a Front End Web Developer. Like to make
+              atttactive and creative websites. Passionate about my work and
+              always ready to learn more.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h1>Contact Me</h1>
+        <div id="box">
+          <div id="svg">
+            <img src="./images/contact.png" id="contactphoto" />
+          </div>
+          <div id="contact">
+            <form>
+              <label>First Name</label>
+              <input
+                type="name"
+                name=""
+                required=""
+                placeholder="e.g Tim"
+                class="placeholder"
+              /><br /><br />
+              <label>Last Name</label>
+              <input
+                type="name"
+                name=""
+                required=""
+                placeholder="e.g Paine"
+              /><br /><br />
+              <label>Email Address</label>
+              <input
+                type="email"
+                name=""
+                autocomplete="off"
+                placeholder="e.g timpaine@gmail.com"
+              /><br /><br />
+              <label>Comments</label>
+              <textarea placeholder="Write your message here.."></textarea
+              ><br />
+              <button id="submit" onclick="submitted();">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="footer">
+      <p1>Created By Chinmay | &copy;2021 All rights reserved</p1>
+    </div>
+  </body>
+</html>
