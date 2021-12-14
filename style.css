@@ -464,7 +464,7 @@ h2 {
   #info {
     text-align: center;
     margin-top: 30px;
-    margin-left: 12px;
+    margin-left: 10px;
   }
   #mainsvg {
     float: none;
@@ -474,8 +474,9 @@ h2 {
   }
   #svg {
   text-align: center;
-  width: 400px;
-  height: 300px;
+  width: 360px;
+  height: 260px;
+  margin-bottom: 20px;
 }
   #parentdiv1,
   #parentdiv2 {
@@ -506,11 +507,11 @@ h2 {
   #maindiv {
     display: grid;
     margin-top: 0px;
+    margin-bottom: 10px;
   }
   #about {
     background-color: #001219;
     margin-right: 20px;
-    margin-top: 20px;
   }
   #about p {
     font-size: 16px;
@@ -522,10 +523,9 @@ h2 {
   }
  #image{
    margin-top: 50px;
+   margin-right: 20px;
  }
-  #svg {
-    margin-bottom: 20px;
-  }
+
   #box {
     display: block;
     overflow: hidden;
@@ -537,7 +537,7 @@ h2 {
     font-size: 22px;
   }
   label {
-    font-size: 18px;
+    font-size: 16px;
   }
   input {
     font-size: 16px;
@@ -546,7 +546,7 @@ h2 {
     margin-top: 200px;
   }
   #whoiam{
-    margin-top: 180px;
+    margin-top: 220px;
     margin-bottom: 0px;
   }
   h1 {
