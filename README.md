@@ -16,4 +16,4 @@ This is my portfolio. It showcases my work in Web Developement. It is a responsi
 * JAVASCRIPT
 
 ## Website
-Click [here](https://chinmay908.github.io/Portfolio/index.html) to view my Portfolio.
+Click [here](https://chinmay908.github.io/Portfolio/) to view my Portfolio.
